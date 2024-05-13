@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 55: end of line expected.
+    show expression ("karty%d.png" % wybranakarta) at the center
+                                                          ^
+
+Ren'Py Version: Ren'Py 8.2.0.24012702
+Mon May 13 21:36:25 2024
