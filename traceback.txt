@@ -1,23 +1,23 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While loading <renpy.display.im.Image object ('karty7.png') at 0x000000000520a1c0>:
+While loading <renpy.display.im.Image object ('karty3.png') at 0x00000000052455b0>:
   File "game/script.rpy", line 57, in script
-    ft "Oh well that is interesting. Let's choose next card."
+    "Oh well that is interesting. Let's choose next card."
   File "renpy/common/000window.rpy", line 122, in _window_auto_callback
     _window_show(auto=True)
   File "renpy/common/000window.rpy", line 70, in _window_show
     renpy.with_statement(trans)
-OSError: Couldn't find file 'karty7.png'.
+OSError: Couldn't find file 'karty3.png'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
   File "game/script.rpy", line 57, in script
-    ft "Oh well that is interesting. Let's choose next card."
+    "Oh well that is interesting. Let's choose next card."
   File "C:\Users\alicj\OneDrive\Pulpit\renpy-8.2.0-sdk\renpy\ast.py", line 2557, in execute
     Say.execute(self)
-  File "C:\Users\alicj\OneDrive\Pulpit\renpy-8.2.0-sdk\renpy\ast.py", line 583, in execute
-    statement_name(stmt_name)
+  File "C:\Users\alicj\OneDrive\Pulpit\renpy-8.2.0-sdk\renpy\ast.py", line 585, in execute
+    statement_name("say")
   File "C:\Users\alicj\OneDrive\Pulpit\renpy-8.2.0-sdk\renpy\ast.py", line 52, in statement_name
     i(name)
   File "renpy/common/000window.rpy", line 122, in _window_auto_callback
@@ -67,9 +67,9 @@ Full traceback:
     filelike = renpy.loader.load(self.filename, directory="images")
   File "C:\Users\alicj\OneDrive\Pulpit\renpy-8.2.0-sdk\renpy\loader.py", line 672, in load
     raise IOError("Couldn't find file '%s'." % name)
-OSError: Couldn't find file 'karty7.png'.
+OSError: Couldn't find file 'karty3.png'.
 
 Windows-10-10.0.22631 AMD64
 Ren'Py 8.2.0.24012702
 Tarrot 1.0
-Mon May 13 21:37:06 2024
+Mon May 13 21:49:41 2024

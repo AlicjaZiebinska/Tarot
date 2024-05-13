@@ -2,9 +2,11 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 55: end of line expected.
-    show expression ("karty%d.png" % wybranakarta) at the center
-                                                          ^
+The label secondcard is defined twice, at File "game/script.rpy", line 69:
+                label secondcard:
+and File "game/script.rpy", line 93:
+                label secondcard:
+
 
 Ren'Py Version: Ren'Py 8.2.0.24012702
-Mon May 13 21:36:25 2024
+Mon May 13 22:22:53 2024
